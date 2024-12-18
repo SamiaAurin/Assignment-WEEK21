@@ -1,0 +1,21 @@
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken cookie-parser dotenv
+npm install nodemon --save-dev
+*************************************************************
+http://localhost:5000/api/users/resgister
+*************************************************************
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "NIDNumber": "1234567890",
+  "phoneNumber": "1234567890",
+  "password": "password123",
+  "bloodGroup": "O+"
+}
+*********************
+http://localhost:5000/api/users/login
+*********************
+{
+  "phoneNumber": "1234567890",
+  "password": "password123"
+}
